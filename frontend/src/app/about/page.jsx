@@ -27,35 +27,30 @@ export default function About() {
       role: "Frontend Developer",
       description: "Phụ trách phát triển Frontend (NextJs, Shadcn UI, Tanstack Query và TaiwindCSS)",
       github: "https://github.com/minhthieu213",
-      linkedin: "https://linkedin.com/in/username2",
     },
     {
       name: "Nguyễn Đại An",
       role: "Frontend Developer",
-      description: "Phụ trách phát triển API với Express.js và MySQL",
+      description: "Phụ trách phát triển Frontend (NextJs, Shadcn UI, Tanstack Query và TaiwindCSS)",
       github: "https://github.com/username2",
-      linkedin: "https://linkedin.com/in/username2",
     },
     {
       name: "Nguyễn Trung Kiên",
       role: "Backend Developer",
-      description: "Phụ trách phát triển API với Express.js và MySQL",
-      github: "https://github.com/username2",
-      linkedin: "https://linkedin.com/in/username2",
+      description: "Phụ trách phát triển API với Express.js, Dizzle ORM và MySQL",
+      github: "https://github.com/kiennt286",
     },
     {
       name: "Phạm Trường Mạnh",
       role: "Backend Developer",
-      description: "Phụ trách phát triển API với Express.js và MySQL",
-      github: "https://github.com/username2",
-      linkedin: "https://linkedin.com/in/username2",
+      description: "Phụ trách phát triển API với Express.js, Dizzle ORM và MySQL",
+      github: "https://github.com/Richarmike2003",
     },
     {
       name: "Lường Mạnh Kiên",
       role: "Docker",
-      description: "Phụ trách phát triển giao diện người dùng với Next.js và Tailwind CSS",
+      description: "Phụ trách phát triển Docker container",
       github: "https://github.com/username1",
-      linkedin: "https://linkedin.com/in/username1",
     },
   ];
 
@@ -114,14 +109,6 @@ export default function About() {
                     >
                       GitHub
                     </a>
-                    <a
-                      href={member.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-600 hover:text-blue-600"
-                    >
-                      LinkedIn
-                    </a>
                   </div>
                 </CardContent>
               </Card>
@@ -161,14 +148,7 @@ export default function About() {
                     >
                       GitHub
                     </a>
-                    <a
-                      href={member.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-600 hover:text-blue-600"
-                    >
-                      LinkedIn
-                    </a>
+
                   </div>
                 </CardContent>
               </Card>
